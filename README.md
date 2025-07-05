@@ -8,11 +8,10 @@
 ![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-10k%20simulations-orange.svg)
 ![Data Source](https://img.shields.io/badge/data%20source-FBREF-lightblue.svg)
 
-Uma aplicação completa para simulação e comparação de predições do **FIFA Club World Cup 2025** usando simulações de Monte Carlo com 10.000 iterações, comparando análises próprias com predições da plataforma **Opta Analytics**.
+Uma simulação preditiva para análise comparativa dos resultados do **FIFA Club World Cup 2025**, utilizando o método de Monte Carlo com 10.000 iterações. O objetivo é confrontar previsões geradas por modelos próprios com os dados e estimativas fornecidos pela plataforma **Opta Analytics**.
 
 ## 🏆 Visão Geral
-
-Este projeto implementa um sistema completo de predição de torneios de futebol que:
+Este projeto desenvolve um sistema de simulação voltado para a fase eliminatória (playoffs) do Mundial de Clubes da FIFA, oferecendo as seguintes funcionalidades:
 - **Coleta dados históricos** de partidas do site FBREF
 - **Calcula scores** dos times usando álgebra linear e mínimos quadrados
 - **Executa 10.000 simulações** de Monte Carlo para predizer probabilidades
