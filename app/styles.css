@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+/* Remove toda a seção .analyst-logo */
+
+.table-container {
+    padding: 0;
+}
+
+.predictions-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-header th {
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #495057;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+.position-col {
+    width: 60px;
+}
+
+.logo-col {
+    width: 60px;
+}
+
+.team-col {
+    width: auto;
+    text-align: left !important;
+}
+
+.table-header th:not(.position-col):not(.logo-col):not(.team-col) {
+    width: 15%;
+}
+
+.team-row {
+    border-bottom: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.team-row:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.position-cell {
+    padding: 15px 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.position-number {
+    color: #495057;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.logo-cell {
+    padding: 15px 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.team-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #dee2e6;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.team-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-cell {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.team-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-display-name {
+    font-size: 1em;
+    color: #2c3e50;
+    margin-bottom: 2px;
+}
+
+.team-country {
+    font-size: 0.8em;
+    color: #6c757d;
+    font-weight: normal;
+}
+
+.percentage-cell {
+    padding: 8px;
+    text-align: center;
+    position: relative;
+    width: 15%;
+}
+
+.percentage-bar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.percentage-bar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Cores graduais baseadas na intensidade */
+.quarter-finals { 
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52); 
+}
+
+.semi-finals-high { 
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52); 
+}
+
+.semi-finals-medium { 
+    background: linear-gradient(45deg, #ffa726, #ff8f65); 
+}
+
+.semi-finals-low { 
+    background: linear-gradient(45deg, #ffcc80, #ffab91); 
+}
+
+.final-high { 
+    background: linear-gradient(45deg, #ff8a80, #ff5722); 
+}
+
+.final-medium { 
+    background: linear-gradient(45deg, #ffab91, #ff7043); 
+}
+
+.final-low { 
+    background: linear-gradient(45deg, #ffccbc, #ffab91); 
+}
+
+.winner-high { 
+    background: linear-gradient(45deg, #e8a5a5, #d7a5a5); 
+}
+
+.winner-medium { 
+    background: linear-gradient(45deg, #f0b7b7, #e8a5a5); 
+}
+
+.winner-low { 
+    background: linear-gradient(45deg, #f5c6c6, #f0b7b7); 
+}
+
+/* Classes para cor do texto baseada na porcentagem */
+.text-light {
+    color: white;
+}
+
+.text-dark {
+    color: black;
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .header h1 {
+        font-size: 1.8em;
+    }
+    
+    .predictions-table {
+        font-size: 0.9em;
+    }
+    
+    .team-cell {
+        min-width: 150px;
+    }
+    
+    .percentage-cell {
+        width: auto;
+        min-width: 90px;
+    }
+    
+    .percentage-bar {
+        height: 40px;
+        font-size: 0.9em;
+    }
+    
+    .team-logo {
+        width: 30px;
+        height: 30px;
+    }
+}
