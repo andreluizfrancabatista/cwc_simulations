@@ -1,0 +1,15 @@
+05/07/2025;de Bayern Munich;Inter it;1;2;-1
+05/07/2025;Inter it;de Bayern Munich;2;2;0
+05/07/2025;de Bayern Munich;Dortmund de;2;2;0
+05/07/2025;Atlético Madrid es;es Real Madrid;1;1;0
+05/07/2025;es Real Madrid;Atlético Madrid es;2;1;1
+05/07/2025;es Real Madrid;Manchester City eng;3;1;2
+05/07/2025;Manchester City eng;es Real Madrid;2;3;-1
+05/07/2025;es Real Madrid;Atlético Madrid es;1;1;0
+05/07/2025;es Real Madrid;at RB Salzburg;5;1;4
+05/07/2025;at RB Salzburg;Atlético Madrid es;1;4;-3
+05/07/2025;Manchester City eng;Chelsea eng;3;1;2
+05/07/2025;Paris S-G fr;Inter it;5;0;5
+05/07/2025;at RB Salzburg;Paris S-G fr;0;3;-3
+05/07/2025;it Juventus;Benfica pt;0;2;-2
+05/07/2025;it Juventus;Inter it;1;0;1

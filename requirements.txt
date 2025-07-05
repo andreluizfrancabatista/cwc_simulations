@@ -2,4 +2,5 @@ matplotlib==3.10.3
 numpy==2.3.1
 pandas==2.3.0
 selenium==4.34.0
+tqdm==4.66.6
 webdriver_manager==4.0.2
