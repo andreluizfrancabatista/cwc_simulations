@@ -21,12 +21,13 @@ Este projeto implementa um sistema completo de predição de torneios de futebol
 
 ## 🖼️ Comparação de Resultados
 
-<div align="center">
+![andre_predictions](_andre_predictions.png)
+![opta_predictions](_opta_predictions.png)
+
+<!-- <div align="center">
   <img src="_andre_predictions.png" width="45%" alt="Predições André Batista" />
   <img src="_opta_predictions.png" width="45%" alt="Predições Opta Analytics" />
-</div>
-
-*Comparação lado a lado: Simulação própria (esquerda) vs. Opta Analytics (direita)*
+</div> -->
 
 ## 🛠️ Tecnologias Utilizadas
 
