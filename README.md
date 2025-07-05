@@ -127,38 +127,12 @@ python -m http.server 8000
 - **Método**: Probabilidades baseadas nos scores calculados
 - **Resultado**: Percentuais de avanço em cada fase
 
-## 🎯 Funcionalidades
-
-- ✅ **Simulações probabilísticas** com 10.000 iterações
-- ✅ **Interface web responsiva** com design moderno
-- ✅ **Comparação visual** com predições da Opta
-- ✅ **Código de cores inteligente** baseado em probabilidades
-- ✅ **Dados em tempo real** carregados dinamicamente
-- ✅ **Escudos oficiais** dos times participantes
-
-## 🔍 Validação
+## 🔍 Comparação
 
 Os resultados foram comparados com as predições oficiais da **Opta Analytics**, plataforma reconhecida mundialmente por análises esportivas, para validar a precisão do modelo desenvolvido.
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Por favor:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
 
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 📧 Contato
-
-**André Batista** - Tournament Predictions Analyst
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
 
 ---
